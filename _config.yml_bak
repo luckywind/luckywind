@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: LuckyWind
+title: Xingfu Cheng
 subtitle: ''
-description: '微信公众号《大数据那点事儿》'
+description: '我的站点描述'
 keywords:
-author: Xingfu Cheng
-language: zh-CN
+author: luckywind
+language: zh-Hans
 timezone: ''
 
 # URL
-# 设置站点地址. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-# url: https://github.com/luckywind/TechWorld
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+url: http://example.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -102,6 +102,4 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repo: https://github.com/luckywind/luckywind.github.io.git
-  branch: main
+  type: ''
