@@ -40,7 +40,13 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+# hexo new创建新文章时，生成相同名字的文件夹，存放文章资源文件
+post_asset_folder: true
+# 用于图片插件npm install hexo-renderer-marked， 以使网页显示支持markdown语法插入图片
+marked:
+  prependRoot: true
+  postAsset: true
+
 relative_link: false
 future: true
 highlight:
