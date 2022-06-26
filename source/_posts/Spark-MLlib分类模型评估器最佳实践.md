@@ -1,7 +1,8 @@
 ---
 title: Spark-MLlib分类模型评估器最佳实践
 date: 2022-06-07 07:04:08
-tags:
+tags:  [Spark,Spark MLlib]
+description: Spark-MLlib分类模型评估器最，你真的理解了吗？
 ---
 
 ​       最近在做家庭识别模型，考虑到Spark强大的生态，选择了Spark MLlib开发和评估模型；尤其在使用它封装好的评估器BinaryClassificationMetrics时，遇到一些比较困惑的输出。经过实验得出了最佳实践，这里记录下来，需要的同学可以参考；

@@ -1,7 +1,8 @@
 ---
 title: 'Spark MLlib源码分析(一): 模型评估器实现原理'
 date: 2022-06-07 08:49:33
-tags:
+tags: [Spark,Spark MLlib]
+description: 图文拆解模型评估器实现原理
 ---
 
 在[Spark MLlib分类模型评估最佳实践](https://tech.xiaomi.com/#/pc/article-detail?id=15440)一文里，我们实践了分类模型评估器BinaryClassificationMetrics的使用。但它是如何做到这么高效的构建混淆矩阵以及评估不同指标的，分箱是怎么回事？ 等等，我们还不太清楚。  本文就从源码角度分析其实现细节
